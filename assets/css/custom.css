@@ -1,0 +1,134 @@
+.about-content span a{
+
+	color: #9dcb3b;
+}
+.links{
+	list-style-type: none;
+
+}
+.links li{
+	display: block;
+}
+.contact a{
+	color: #ddd;
+}
+.single-portfolio-item img{
+
+	width: 100%;
+	height:100%;
+}
+
+.f-center{
+	padding-left: 100px;
+}
+
+@media only screen and (max-width: 767px){
+
+.single-slide-item {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 334px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 186px;
+		}
+.single-slide-item img{
+	width: 100%;
+	height: 100%;
+}
+.f-center{
+	padding-left: 0;
+}
+}
+@media (min-width: 768px){
+.f-center{
+	padding-left: 80px;
+}	
+
+}
+
+
+
+.contact-section input::placeholder,
+.contact-section textarea::placeholder {
+	font-size: 15px;
+	color: #191919;
+}
+.donate-content{
+
+	width: 80%;
+	margin:auto;
+}
+.single-input label{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.doc-img{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.doc-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.activity-content {
+	margin-top: 30px;
+	-webkit-transition: transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.activity-content .section-title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.download-links{
+
+	width: 100%;
+}
+.download-links .links{
+	text-align: left;
+	padding-left: 50px;
+	margin: auto;
+}
+.download-links .links a{
+	color: #0098b9;
+	font-size: 20px;
+	padding-bottom: 20px;
+	overflow-wrap: anywhere;
+}
+.download-links .links a:hover{
+	color:#9dcb3b;
+}
+.qr-code{
+	width: 250px;
+	margin: auto;
+}
+.qr-code img{
+	width: 100%;
+	height:auto;
+}
+.logo-container{
+	width: 340px;
+	height: 192px;
+}
+.logo-container img{
+	width: 100%;
+	height: 100%;
+}
