@@ -2,10 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 define('APP_NAME', 'Himmat');
 define('ADMIN', 'adminPanel');
-define('LIVE', FALSE);
-define('MERCHENT', LIVE === FALSE ? 'JAUz3Z4eyC0cVa' : '');
-define('APP_KEY', LIVE === FALSE ? 'rzp_test_Ge1Qs5hnblIosq' : '');
-define('SECRET', LIVE === FALSE ? 'PuPriDW3GdFHdfwQcUuhjH2c' : '');
 
 /*
 |--------------------------------------------------------------------------

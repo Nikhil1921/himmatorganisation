@@ -135,6 +135,9 @@
 									<li class="<?= ($name == 'program') ? 'active' : '' ?>">
 										<?= anchor(admin('program'), '<span class="pcoded-micon"><i class="feather icon-file-minus"></i></span><span class="pcoded-mtext">Programs</span>') ?>
 									</li>
+									<li class="<?= ($name == 'donation') ? 'active' : '' ?>">
+										<?= anchor(admin('donation'), '<span class="pcoded-micon"><i class="feather icon-file-minus"></i></span><span class="pcoded-mtext">Donation</span>') ?>
+									</li>
 									<li class="<?= ($name == 'gallery') ? 'active' : '' ?>">
 										<?= anchor(admin('gallery'), '<span class="pcoded-micon"><i class="feather icon-image"></i></span><span class="pcoded-mtext">Gallery</span>') ?>
 									</li>

@@ -174,6 +174,6 @@
             <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
         <?php endif ?>
 		<!-- Main JS -->
-		<script src="<?= base_url('assets/js/main.js?v=1.0.1') ?>"></script>
+		<script src="<?= base_url('assets/js/main.js?v=1.0.2') ?>"></script>
 	</body>
 </html>
