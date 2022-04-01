@@ -69,7 +69,7 @@
 									<a class="navbar-brand" href="<?= base_url() ?>"><img src="<?= base_url('assets/images/logo.png') ?>" alt=""></a>
 								</div>
 							</div>
-							<div class="col-lg-8">
+							<div class="col-lg-10">
 								<div class="main-menu">
 									<nav class="navbar navbar-expand-lg">
 										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,16 +102,17 @@
 												</li>
 												<li class="nav-item"><a class="nav-link <?= ($name == 'gallery' ? 'active' : '') ?>" href="<?= base_url('gallery') ?>">Gallery</a></li>
 												<li class="nav-item"><a class="nav-link <?= ($name == 'contact' ? 'active' : '') ?>" href="<?= base_url('contact') ?>">Contact us</a></li>
+												<li class="nav-item main-btn"><a class="nav-link" href="<?= base_url('donate') ?>">Donate</a></li>
 											</ul>
 										</div>
 									</nav>
 								</div>
 							</div>
-							<div class="col-lg-2 text-center">
+							<!-- <div class="col-lg-2 text-center">
 								<div class="header-right-content">
 									<a href="<?= base_url('donate') ?>" class="main-btn">Donate</a>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
