@@ -108,7 +108,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-area .main-btn {
-        display: none;
+        /* display: none; */
     }
     .main-menu .navbar-nav .nav-link {
         font-size: 15px;
@@ -601,7 +601,7 @@
         text-align: center;
     }
     .header-area .main-btn {
-        display: none;
+        /* display: none; */
     }
     .social-icon {
         text-align: center;

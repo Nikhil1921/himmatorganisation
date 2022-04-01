@@ -25,10 +25,10 @@
 		<!-- Owl Carousel CSS -->
 		<link href="<?= base_url('assets/css/owl.carousel.css') ?>" rel="stylesheet">
 		<!-- Style CSS -->
-		<link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
-		<link href="<?= base_url('assets/css/custom.css') ?>" rel="stylesheet">
+		<link href="<?= base_url('assets/css/style.css?v=1.0.1') ?>" rel="stylesheet">
+		<link href="<?= base_url('assets/css/custom.css?v=1.0.1') ?>" rel="stylesheet">
 		<!-- Responsive CSS -->
-		<link href="<?= base_url('assets/css/responsive.css') ?>" rel="stylesheet">
+		<link href="<?= base_url('assets/css/responsive.css?v=1.0.1') ?>" rel="stylesheet">
 		<!-- jquery -->
 		<script src="<?= base_url('assets/js/jquery-1.12.4.min.js') ?>"></script>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">

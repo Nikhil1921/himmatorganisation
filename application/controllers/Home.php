@@ -10,6 +10,7 @@ class Home extends Public_controller  {
 	private $reports = "assets/images/report/";
 	private $partners = "assets/images/partner/";
 	private $about = "assets/images/about/";
+	private $programs = "assets/images/donation_program/";
 
 	public function index()
 	{
@@ -301,6 +302,7 @@ class Home extends Public_controller  {
         }
 
 		$data['programs'] = $this->main->getall('program', 'title, slug, CONCAT("'.$this->program.'", image) image', ['is_deleted' => 0]);
+		$data['donation_programs'] = $this->main->getall('donation_program', 'name, CONCAT("'.$this->programs.'", image) image', ['is_deleted' => 0]);
 		
 		return $this->template->load('template', 'donate', $data);
 	}

@@ -33,3 +33,4 @@ $route[ADMIN.'/report']['post'] = ADMIN.'/report/get';
 $route[ADMIN.'/trustee']['post'] = ADMIN.'/trustee/get';
 $route[ADMIN.'/program']['post'] = ADMIN.'/program/get';
 $route[ADMIN.'/donation']['post'] = ADMIN.'/donation/get';
+$route[ADMIN.'/donation_program']['post'] = ADMIN.'/donation_program/get';

@@ -99,3 +99,17 @@
         </div>
     </div>
 </section>
+<div class="service-area gray-bg section-padding">
+	<div class="container">
+		<div class="row">
+			<?php foreach ($donation_programs as $k => $prog): ?>
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="single-service-item active">
+					<?= img(['src' => $prog['image']]) ?>
+					<h5><?= $prog['name'] ?></h5>
+				</div>
+			</div>
+			<?php endforeach ?>
+		</div>
+	</div>
+</div>

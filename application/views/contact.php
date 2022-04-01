@@ -31,9 +31,12 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-12 text-center contact-detail">
 						<p><i class="las la-map-marker"></i><b>Address</b>
-							<span>872/1/2, vohr vad vohr vad,<br>
-								Behind post office,<br>
-								Village road, Bibi talav, Vatva
+							<span>Himmat, 872/1/2, vohr vasd,
+								Behind vatva sub post office,
+								near Shraddha dairy,
+								Bibi talav, Vatva 
+								Ahmadabad, Gujarat, India 
+								Pincode 382440
 							</span>
 						</p>
 					</div>
